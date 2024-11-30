@@ -1,0 +1,19 @@
+name: tarea_app
+description: Una aplicación Flutter de ejemplo sin imágenes de fondo
+
+publish_to: 'none' # No es necesario publicarlo
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
